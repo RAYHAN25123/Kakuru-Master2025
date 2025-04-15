@@ -8,7 +8,7 @@ st.set_page_config(
 
 st.sidebar.success("👆SILAHKAN PILIH👆")
 
-st.title("KAKURU (Kalkulator Rumus): Cara mudah menghitung cepat soal matematika")
+st.title("KAKURU (Kalkulator Rumus): Cara mudah menghitung cepat soal matematika dan fisika")
 st.markdown("""
     Orang yang terlibat :
 - Raditya Rayhan Anjaya sebagai Programmer
