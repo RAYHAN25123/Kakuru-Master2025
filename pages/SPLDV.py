@@ -13,12 +13,11 @@ p = st.number_input("Masukan Nilai Variabel p", value=0.0)
 q = st.number_input("Masukan Nilai Variabel q", value=0.0)
 r = st.number_input("Masukan Nilai Variabel r", value=0.0)
 
-try:
-    # Rumus eliminasi & substitusi
-    x = (c*q - r*b) / (a*q - p*b)
-    y = (c - a*x) / b
-
-    st.caption("Note: AI KAKURU akan mencari variabel x dengan metode eliminasi lalu mencari variabel y dengan metode substitusi")
+x = (c*q-r*b)/(a*q-p*b)
+y = (1/b)*(c-a*x)
+except ZeroDivisionError: #Kecuali x = 0 y = 0
+    x1 = 0 #Berarti ngubah semua valuenya jadi 0?
+    y1 = 0
 
     st.header("Nilai X")
     st.subheader(x)
