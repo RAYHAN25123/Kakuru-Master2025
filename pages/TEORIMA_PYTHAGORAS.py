@@ -7,8 +7,13 @@ st.markdown("""
 - b = Sisi siku-siku(Tinggi)
 - c = Sisi miring
 
-### RUMUS :
+### Rumus :
 - c2 = a2 + b2
 - a2 = c2 - b2
 - b2 = c2 - a2
 """)
+
+st.subheader("Mencari C")
+a = st.number_input("Masukan a")
+b = st.number_input("Masukan b")
+c = a **2 + b **2
