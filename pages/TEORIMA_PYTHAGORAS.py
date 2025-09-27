@@ -19,4 +19,4 @@ b = st.number_input("Masukan b")
 c = a **2 + b **2
 c1 = c **0.5
 st.header("Hasil")
-ST.subheader(c1)
+st.subheader(c1)
