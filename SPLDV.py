@@ -18,3 +18,7 @@ except ZeroDivisionError: #Kecuali x = 0 y = 0
     x = 0 #Berarti ngubah semua valuenya jadi 0?
     y = 0
 st.caption("Note: AI KAKURU akan mencari variabel x dengan metode eliminasi lalu mencari variabel y dengan metode subtitusi")
+st.header("Nilai X")
+st.subheader(x)
+t.header("Nilai Y")
+st.subheader(y)
