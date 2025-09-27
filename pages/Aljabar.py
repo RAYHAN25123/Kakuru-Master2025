@@ -1,5 +1,4 @@
 import streamlit as st
-import sympy as sp
 
 # Judul aplikasi
 st.title("Aljabar")
