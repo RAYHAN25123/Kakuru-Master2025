@@ -16,4 +16,7 @@ st.markdown("""
 st.subheader("Mencari C")
 a = st.number_input("Masukan a")
 b = st.number_input("Masukan b")
-c = a **2 + b **2
+c = a **2 + b **2 = d
+c1 = d **0.5
+st.header("Hasil")
+st.subheader(c1)
