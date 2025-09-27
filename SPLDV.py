@@ -11,9 +11,8 @@ p = st.number_input("Masukan Nilai Variabel p")
 q = st.number_input("Masukan Nilai Variabel q")
 r = st.number_input("Masukan Nilai Variabel r")
 
-try: #Coba x = blablabla y = blablabla
-    x = (c*q-r*b)/(a*q-p*b)
-    y = (1/b)*(c-a*x)
+x = (c*q-r*b)/(a*q-p*b)
+y = (1/b)*(c-a*x)
 except ZeroDivisionError: #Kecuali x = 0 y = 0
     x = 0 #Berarti ngubah semua valuenya jadi 0?
     y = 0
