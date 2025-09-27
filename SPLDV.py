@@ -14,8 +14,8 @@ r = st.number_input("Masukan Nilai Variabel r")
 x = (c*q-r*b)/(a*q-p*b)
 y = (1/b)*(c-a*x)
 except ZeroDivisionError: #Kecuali x = 0 y = 0
-    x = 0 #Berarti ngubah semua valuenya jadi 0?
-    y = 0
+    x1 = 0 #Berarti ngubah semua valuenya jadi 0?
+    y1 = 0
 st.caption("Note: AI KAKURU akan mencari variabel x dengan metode eliminasi lalu mencari variabel y dengan metode subtitusi")
 st.header("Nilai X")
 st.subheader(x)
