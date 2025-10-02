@@ -20,3 +20,12 @@ c = a **2 + b **2
 c1 = c **0.5
 st.header("Hasil C (Sisi Miring)")
 st.subheader(c1)
+
+st.subheader("Mencari a (Alas)")
+c2 = st.number_input("Masukkan panjang sisi miring c:", min_value=0.0)
+a1 = st.number_input("Masukkan panjang sisi b:", min_value=0.0)
+b1 = c2 **2 + a1 **2
+b2 = b1 **0.5
+st.header("Hasil C (Sisi Miring)")
+st.subheader(b2)
+
