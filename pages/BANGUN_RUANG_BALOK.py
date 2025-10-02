@@ -16,6 +16,7 @@ st.markdown("""
 - L = 2 x (p x l + p x t + l x t)
 ### Rumus Mencari Volume :
 - V = p x l x t
+""")
 
 st.subheader("Balok")
 p = st.number_input("Masukan Nilai Panjang:")
