@@ -24,7 +24,7 @@ st.subheader(c1)
 st.subheader("Mencari B")
 c2 = st.number_input("Masukan c, key="c2")
 a1 = st.number_input("Masukan a, key="a1")
-b1 = c2 **2 - a2 **2
+b1 = c2 **2 - a1 **2
 b2 = b1 **0.5
 st.header("Hasil")
 st.subheader(b2)
