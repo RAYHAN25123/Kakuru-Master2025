@@ -14,16 +14,16 @@ st.markdown("""
 """)
 
 st.subheader("Mencari C")
-a = st.number_input("Masukan a, key="a2")
-b = st.number_input("Masukan b, key="b2")
+a = st.number_input("Masukan a, key="a10")
+b = st.number_input("Masukan b, key="b11")
 c = a **2 + b **2
 c1 = c **0.5
 st.header("Hasil")
 st.subheader(c1)
 
 st.subheader("Mencari B")
-c2 = st.number_input("Masukan c, key="c2")
-a1 = st.number_input("Masukan a, key="a1")
+c2 = st.number_input("Masukan c, key="c10")
+a1 = st.number_input("Masukan a, key="a11")
 b1 = c2 **2 - a1 **2
 b2 = b1 **0.5
 st.header("Hasil")
