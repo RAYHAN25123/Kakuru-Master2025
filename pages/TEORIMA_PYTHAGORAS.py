@@ -24,7 +24,7 @@ st.subheader(c1)
 st.subheader("Mencari a (Alas)")
 c2 = st.number_input("Masukkan panjang sisi miring c:", min_value=0.0)
 a1 = st.number_input("Masukkan panjang sisi b:", min_value=0.0, key= "key b")
-b1 = c2 **2 + a1 **2
+b1 = c2 **2 - a1 **2
 b2 = b1 **0.5
 st.header("Hasil a (Alas)")
 st.subheader(b2)
